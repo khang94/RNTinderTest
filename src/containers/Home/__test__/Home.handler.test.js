@@ -1,31 +1,38 @@
 import Handlers from '../Home.handlers';
-import SampleUserJson from '../../../assets/json/sample.json';
+import SampleResponseJson from '../../../assets/json/sample.json';
 
 import {getUserAPI} from './../../../services/fetchUserApi';
 
 const {showLoading, fetchUser} = Handlers;
 
 jest.mock('./../../../services/fetchUserApi', () => ({
-  getUserAPI: jest.fn(),
+  getUserAPI: jest.fn(() => Promise.resolve({...SampleResponseJson})),
 }));
 
 describe('Home/Handlers', () => {
+  beforeAll(done => {
+    done();
+  });
+
   it('Should test show loading', () => {
     const handleState = jest.fn();
     showLoading(handleState);
     expect(handleState).toBeCalledWith({loading: true});
   });
 
-  it('Should fetch user data and update to state', () => {
+  it('Should fetch user data and update to state', done => {
     const handleState = jest.fn();
     const currentState = {
-      users: [{...SampleUserJson}],
+      users: [],
     };
     fetchUser(handleState, currentState);
 
-    getUserAPI.mockImplementation = jest.fn(() => Promise.resolve(true));
-
     expect(handleState).toBeCalledWith({loading: true});
-    // expect(getUserAPI).toBeCalledWith('123');
+
+    getUserAPI().then(res => {
+      expect(res.results[0].user).not.toBe(null);
+      expect(handleState).toBeCalled();
+      done();
+    });
   });
 });

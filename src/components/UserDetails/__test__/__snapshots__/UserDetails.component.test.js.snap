@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDetails snapshot Should render active account icon 1`] = `ShallowWrapper {}`;
+
+exports[`UserDetails snapshot Should render active birthday icon 1`] = `ShallowWrapper {}`;
+
+exports[`UserDetails snapshot Should render active email icon 1`] = `ShallowWrapper {}`;
+
+exports[`UserDetails snapshot Should render active location icon 1`] = `ShallowWrapper {}`;
+
+exports[`UserDetails snapshot Should render active password icon 1`] = `ShallowWrapper {}`;
+
+exports[`UserDetails snapshot Should render active phone icon 1`] = `ShallowWrapper {}`;
+
+exports[`UserDetails snapshot Should render snapshot for user details view 1`] = `ShallowWrapper {}`;

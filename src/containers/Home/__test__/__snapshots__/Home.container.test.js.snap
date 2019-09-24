@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeContainer snapshot Should render card item based on current user data after fetched  1`] = `
+<Card
+  avatar=""
+  user={
+    Object {
+      "name": Object {
+        "first": "Steve",
+        "last": "Job",
+      },
+    }
+  }
+/>
+`;
+
+exports[`HomeContainer snapshot Should render loading state in card while fetching data  1`] = `<CardWithLoading />`;
+
+exports[`HomeContainer snapshot Should render snapshot 1`] = `ShallowWrapper {}`;

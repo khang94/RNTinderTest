@@ -8,8 +8,12 @@ import styles from './Card.component.styles';
 import Handlers from './Card.handlers';
 
 class Card extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   state = {
-    activeTab: 'location', // default info
+    activeTab: 'location',
   };
 
   onSelectItem = activeTab => {

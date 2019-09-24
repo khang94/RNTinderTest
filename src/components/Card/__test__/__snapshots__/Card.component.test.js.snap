@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardComponent snapshot Should render snapshot for card view 1`] = `ShallowWrapper {}`;

@@ -32,7 +32,7 @@ class HomeContainer extends Component {
     Handlers.fetchUser(this.handleState, this.state);
   }
 
-  onRenderCard = card => {
+  renderCard = card => {
     const {currentUser, loading} = this.state;
     const avatar = (currentUser && currentUser.picture) || '';
     return loading ? (
@@ -42,12 +42,12 @@ class HomeContainer extends Component {
     );
   };
 
-  onSwiped = direction => () => {
-    if (direction === Direction.Right) {
-      this.saveFavouriteUser();
-    } else {
-      Handlers.fetchUser(this.handleState, this.state);
-    }
+  onSwipedRight = () => {
+    this.saveFavouriteUser();
+  };
+
+  onSwipedLeft = () => {
+    Handlers.fetchUser(this.handleState, this.state);
   };
 
   saveFavouriteUser = () => {
@@ -66,9 +66,9 @@ class HomeContainer extends Component {
         <DeckSwiper
           containerStyle={styles.card}
           cards={users}
-          renderCard={this.onRenderCard}
-          onSwipedLeft={this.onSwiped(Direction.Left)}
-          onSwipedRight={this.onSwiped(Direction.Right)}
+          renderCard={this.renderCard}
+          onSwipedLeft={this.onSwipedLeft}
+          onSwipedRight={this.onSwipedRight}
           cardIndex={0}
           backgroundColor={'transparent'}
           stackSize={1}
