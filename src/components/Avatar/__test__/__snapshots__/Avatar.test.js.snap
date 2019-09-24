@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar snapshot snapshots default renderer 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderColor": "#757575",
+        "borderRadius": 150,
+        "borderWidth": 0.5,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "http://api.randomuser.me/landscape/male/2323.jpg",
+        }
+      }
+      style={
+        Object {
+          "borderColor": "#ffffff",
+          "borderRadius": 150,
+          "borderWidth": 5,
+          "height": 150,
+          "resizeMode": "contain",
+          "width": 150,
+        }
+      }
+    />
+  </View>
+</View>
+`;

@@ -1,0 +1,35 @@
+{
+    "results": [
+      {
+        "user": {
+          "gender": "male",
+          "name": {
+            "title": "mr",
+            "first": "jerome",
+            "last": "porter"
+          },
+          "location": {
+            "street": "7764 e santa ana st",
+            "city": "cape fear",
+            "state": "iowa",
+            "zip": "50068"
+          },
+          "email": "jerome.porter96@example.com",
+          "username": "blackpanda253",
+          "password": "deedee",
+          "salt": "fZxIEN9A",
+          "md5": "059c9f0749664157dc4a26b5cec6006c",
+          "sha1": "64804b7a175639f2c85f1f128c306e500bc8eeab",
+          "sha256": "d8baf6b53286ac89286e789d3e7867cf48bcc10225496bf2a8101f4c3e13c96f",
+          "registered": "917219130",
+          "dob": "407125715",
+          "phone": "(829)-574-1284",
+          "cell": "(752)-858-5021",
+          "SSN": "947-90-4912",
+          "picture": "http://api.randomuser.me/portraits/men/78.jpg"
+        },
+        "seed": "4adbbe03078621c6",
+        "version": "0.4"
+      }
+    ]
+  }
