@@ -1,8 +1,9 @@
 ### RNTinderTest
 Tinder App Test Using React-Native lastest version 0.60.5.
 
-### Code coverage : 95%.
-<img width="764" alt="Screen Shot 2019-09-24 at 3 44 39 PM" src="https://user-images.githubusercontent.com/20040653/65496294-63367800-dee2-11e9-8480-dcf3586eb5d9.png">
+### Code coverage : 97%.
+<img width="778" alt="Screen Shot 2019-09-25 at 1 14 21 AM" src="https://user-images.githubusercontent.com/20040653/65538599-dfa47780-df31-11e9-82d7-dedb7c27ae2a.png">
+
 
 ### Description.
 Simple tinder app which allow user to swipe to be looking for their favourite friends.
