@@ -15,9 +15,7 @@ Simple tinder app which allow user to swipe to be looking for their favourite fr
 - React-native-deck-swiper
 
 ### Screenshots.
-![Simulator Screen Shot - iPhone 8 - 2019-09-24 at 15 49 49](https://user-images.githubusercontent.com/20040653/65496605-f5d71700-dee2-11e9-8274-a2b4a24ae011.png)
-![Simulator Screen Shot - iPhone 8 - 2019-09-24 at 15 49 36](https://user-images.githubusercontent.com/20040653/65496606-f5d71700-dee2-11e9-8ae7-85251e5fc425.png)
-![Simulator Screen Shot - iPhone 8 - 2019-09-24 at 15 49 28](https://user-images.githubusercontent.com/20040653/65496607-f5d71700-dee2-11e9-974b-34a267199720.png)
+<img width="338" alt="Screen Shot 2019-09-24 at 3 52 43 PM" src="https://user-images.githubusercontent.com/20040653/65496822-6120e900-dee3-11e9-8f0a-d33a1b8b15db.png">
 
 ### Licenses.
 MIT .
